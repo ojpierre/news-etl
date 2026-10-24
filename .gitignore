@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local ignores
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+airflow.db
+airflow.cfg
+logs/
+
